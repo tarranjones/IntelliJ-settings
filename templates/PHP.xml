@@ -1,0 +1,9 @@
+<templateSet group="PHP">
+  <template name="@test" value="/** @test */&#10;&#10;public function it_$STOP$()&#10;{&#10;&#10;    $END$&#10;    &#10;}" description="adds test method" toReformat="false" toShortenFQNames="true">
+    <variable name="STOP" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP Class Member" value="true" />
+    </context>
+  </template>
+  <template name="$" value="$this-&gt;$END$" description="$ to $this-&gt;" toReformat="false" toShortenFQNames="true" />
+</templateSet>

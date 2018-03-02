@@ -1,0 +1,15 @@
+<application>
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="02edc5e4-9c65-4acf-ba55-bf6626b527f7" name="tarranjones.com" url="http://localhost">
+        <fileTransfer port="0" accessType="LOCAL" />
+      </webServer>
+      <webServer id="c6e295ca-635b-4285-9de2-25ae53edfa54" name="Artisan Default" url="http://127.0.0.1:8000/">
+        <fileTransfer port="0" accessType="LOCAL" />
+      </webServer>
+      <webServer id="5d43d987-b70f-431d-9a92-eed4a1e843b1" name="9990" url="http://localhost:9990">
+        <fileTransfer port="0" accessType="LOCAL" />
+      </webServer>
+    </option>
+  </component>
+</application>
